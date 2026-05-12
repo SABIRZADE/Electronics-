@@ -1,4 +1,84 @@
 4.Topic
+
+verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
+https://www.instagram.com/physics_teacher_azerbaijan
+
+https://www.academia.edu/166064683/Technical_Laboratory_Report_Automatic_Light_Sensing_and_Voltage_Divider_Circuit_Nihat_Sabirzade_Murad_Ibrahimov_Ilkin_Mecidov_Baris_Huseynov_Verified_by_Physics_Teacher_Azerbaijan_Telman_Askeraliyev_Fizika_Muellimi_Azerbaijan_Baku_
+
+# Automatic Light Sensing & Voltage Divider Circuit — Technical Lab Report
+
+A full technical laboratory report documenting the design, simulation,
+analysis, and troubleshooting of an LDR-triggered passive speaker circuit
+powered by a 9V battery.
+
+**Authors:** Nihat Sabirzade · Murad Ibrahimov · Ilkin Mecidov · Baris Huseynov
+**Verified by:** Telman Askeraliyev — Physics Teacher, Azerbaijan, Baku
+**Date:** 28 April 2026
+
+---
+
+## Report Overview
+
+| # | Section | Content |
+|---|---------|---------|
+| 1 | Circuit Description | Component list, circuit purpose, LDR voltage divider principle |
+| 2 | Schematic Analysis | Power stage, sensing stage, output stage — node voltage table |
+| 3 | Predictive Calculations | Voltage divider formula, current draw, power dissipation |
+| 4 | Simulation Results | VP1 anomaly analysis, expected vs measured behaviour |
+| 5 | Troubleshooting Guide | 7 common faults with causes and recommended fixes |
+| 6 | Review Questions | Simulation artefact explanation + dark-activated alarm modification |
+
+---
+
+## Circuit Specifications
+
+| Parameter | Value |
+|-----------|-------|
+| Supply Voltage | 9V DC (BAT1) |
+| Fixed Resistor R1 | 10 kΩ |
+| LDR Model | ORCH_LDR |
+| Simulation Tool | Proteus / EasyEDA |
+| Measured VP1 | 12.47 V (anomalous — analysed in report) |
+| Divider Current | 0.45 mA (balanced condition) |
+| Power in R1 | ≈ 2.025 mW |
+
+---
+
+## Key Findings
+
+- LDR and R1 form a voltage divider — output voltage varies with ambient light
+- VP1 reading of 12.47V exceeds supply due to floating probe (simulation artefact)
+- Divider current (0.45 mA) is too low to directly drive a passive speaker
+- A BJT driver stage (BC547 / 2N2222) is required for proper speaker activation
+- Potentiometer replacement of R1 allows adjustable light sensitivity
+
+---
+
+## Recommended Circuit Improvements
+
+- **NPN Transistor** (BC547) — current amplification to drive the speaker
+- **Base Resistor** (1 kΩ) — limits base current to protect transistor
+- **Potentiometer** (10 kΩ) — replaces R1 for adjustable sensitivity
+- **Flyback Diode** (1N4007) — protects transistor from inductive spikes
+- **Decoupling Capacitor** (100 µF) — filters supply noise
+
+---
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `lab_report.pdf` | Full technical report with circuit diagram |
+| `circuit_schematic/` | Simulation files (Proteus / EasyEDA) |
+
+---
+
+## Subject
+
+- **Field:** Electronics / Circuit Theory
+- **Type:** Technical Laboratory Report
+- **Language:** English
+- **Location:** Azerbaijan, Baku
 -------------------
 5.Topic
 
