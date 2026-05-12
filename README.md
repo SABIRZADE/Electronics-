@@ -1,3 +1,98 @@
+2.Topic
+
+---------------------
+3.Topic
+https://www.slideshare.net/slideshow/comprehensive-technical-report-on-voltage-divider-circuits-and-applications/287239518
+
+verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
+https://www.instagram.com/physics_teacher_azerbaijan
+
+# Voltage Divider — Comprehensive Technical Report
+
+A 7-page comprehensive technical report covering the theory, mathematical
+derivation, loading effects, practical applications, and design guidelines
+of the voltage divider circuit.
+
+**Authors:** Nihat Sabirzade · Murad Ibrahimov · Ilkin Mecidov
+**Verified by:** Telman Askeraliyev — Physics Teacher, Azerbaijan, Baku
+**Date:** April 2026
+
+---
+
+## Report Overview
+
+| # | Section | Content |
+|---|---------|---------|
+| 01 | What is a Voltage Divider? | Definition, key properties, common applications |
+| 02 | Circuit Diagram & Components | Schematic, component roles, circuit behaviour, KVL |
+| 03 | Mathematical Derivation | Series current, voltage formulas, KVL verification, numerical example |
+| 04 | Divider Ratio & Loaded Divider | Ratio table, loading effect, R_L rule of thumb |
+| 05 | Practical Applications | Level shifting, ADC scaling, transistor biasing, potentiometer |
+| 06 | Summary & Conclusion | All key formulas, 7 key takeaways |
+
+---
+
+## Key Formulas
+
+| Quantity | Formula |
+|----------|---------|
+| Series current | `I = VS / (R1 + R2)` |
+| Upper voltage | `V1 = VS × R1 / (R1 + R2)` |
+| Output voltage | `V2 = VS × R2 / (R1 + R2)` |
+| Divider ratio | `k = R2 / (R1 + R2)` |
+| KVL check | `V1 + V2 = VS` |
+| Loaded output | `R2_eff = R2 × RL / (R2 + RL)` |
+
+---
+
+## Numerical Example
+
+| Parameter | Value |
+|-----------|-------|
+| Supply voltage VS | 12 V |
+| R1 | 3 kΩ |
+| R2 | 1 kΩ |
+| Current I | 3 mA |
+| V1 | 9 V (75%) |
+| V2 (output) | 3 V (25%) |
+| Divider ratio k | 0.25 |
+
+---
+
+## Practical Applications Covered
+
+- **Logic Level Shifting** — 5V to 3.3V for ESP32 / STM32 interfaces
+- **ADC Sensor Scaling** — 0–12V sensor down to 0–5V Arduino input
+- **Transistor Base Biasing** — Setting BJT Q-point via VCC divider
+- **Potentiometer** — Variable divider for volume controls and trimmers
+
+---
+
+## Key Takeaways
+
+- Output ratio k depends only on R1 and R2, not on supply voltage
+- Loading effect: connecting R_L across R2 reduces V2 — keep R1+R2 << R_L
+- Use 1% tolerance (E96 series) resistors for accurate ratios
+- The voltage divider appears in virtually every electronics circuit
+
+---
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `voltage_divider_report.pdf` | Full 7-page technical report with diagrams |
+
+---
+
+## Subject
+
+- **Field:** Electronics / Circuit Theory
+- **Type:** Comprehensive Technical Report
+- **Language:** English
+- **Location:** Azerbaijan, Baku
+
+------------------------
 4.Topic
 
 verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
