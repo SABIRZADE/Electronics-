@@ -1,5 +1,92 @@
--------------------
 1.Topic
+
+https://www.slideshare.net/slideshow/comprehensive-technical-report-on-field-effect-transistors-fets-and-their-applications/287120657
+
+verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
+https://www.instagram.com/physics_teacher_azerbaijan
+
+# Field Effect Transistors (FETs) — Comprehensive Presentation
+
+A 7-slide educational presentation covering the complete theory of Field Effect
+Transistors — from JFET fundamentals to MOSFET operation, CMOS technology,
+and next-generation semiconductor devices.
+
+**Authors:** Nihat Sabirzade · Murad Ibrahimov
+**Verified by:** Telman Askeraliyev — Physics Teacher, Azerbaijan, Baku (Fizika Muellimi)
+**Date:** April 2026
+**Type:** Technical Guide · Educational Documentary · Electronics Engineering
+
+---
+
+## Slides Overview
+
+| # | Slide | Key Content |
+|---|-------|-------------|
+| 01 | Introduction to FETs | Definition, FET vs BJT advantages, FET family — JFET, Enhancement & Depletion MOSFET |
+| 02 | The Junction FET (JFET) | Structure, Shockley equation, operating regions, biasing methods |
+| 03 | The MOSFET | Enhancement vs Depletion comparison, saturation equation, biasing techniques |
+| 04 | CMOS Technology | CMOS principles, ESD sensitivity, thermal behavior, future devices |
+| 05 | BJT vs JFET vs MOSFET | Full comparison table across 7 properties |
+| 06 | Conclusion | JFET, MOSFET, CMOS, and future device summaries |
+
+---
+
+## Key Formulas
+
+| Formula | Description |
+|---------|-------------|
+| `I_D = I_DSS × (1 − V_GS / V_GS(off))²` | Shockley equation — JFET drain current |
+| `I_D = kₙ · (V_GS − V_th)²` | MOSFET saturation region drain current |
+
+---
+
+## Device Comparison
+
+| Property | BJT | JFET | MOSFET |
+|----------|-----|------|--------|
+| Control Type | Current | Voltage | Voltage |
+| Input Impedance | Low | High | Very High (TΩ) |
+| Noise | Medium | Low | Low |
+| Speed | High | Medium | Very High |
+| Thermal Stability | Low | High | High |
+| Primary Usage | Analog Amp | RF/Analog | Digital/Power |
+
+---
+
+## JFET Operating Regions
+
+| Region | Condition | Use Case |
+|--------|-----------|---------|
+| Ohmic | Low V_DS | Voltage-variable resistor (VVR) |
+| Saturation | High V_DS | Amplification, current source |
+| Breakdown | Excess V_DS | Avoid — device damage |
+
+---
+
+## Future Devices Covered
+
+- **FinFET** — 3D tri-gate structure for sub-10nm nodes
+- **GAA FET** — Gate-All-Around nanosheet architecture
+- **TFET** — Tunnel FET for ultra-low power applications
+
+---
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `fetpresentation-260421054729-21e23722.pdf` | 7-slide FET theory presentation |
+
+---
+
+## Subject
+
+- **Field:** Electronics / Semiconductor Devices
+- **Type:** Educational Slide Presentation
+- **Language:** English
+- **Location:** Azerbaijan, Baku
+-------------------
+2.Topic
 
 https://www.slideshare.net/slideshow/comprehensive-technical-report-on-field-effect-transistors-fets-and-their-applications/287120657
 
@@ -115,7 +202,7 @@ PWM control via `analogWrite()` enables motor speed control and LED dimming.
 - **Language:** English
 - **Location:** Azerbaijan, Baku
 ---------------------
-2.Topic
+3.Topic
 https://www.slideshare.net/slideshow/comprehensive-technical-report-on-voltage-divider-circuits-and-applications/287239518
 
 verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
@@ -207,7 +294,7 @@ of the voltage divider circuit.
 - **Location:** Azerbaijan, Baku
 
 ------------------------
-3.Topic
+4.Topic
 
 verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
 https://www.instagram.com/physics_teacher_azerbaijan
@@ -289,7 +376,7 @@ powered by a 9V battery.
 - **Language:** English
 - **Location:** Azerbaijan, Baku
 -------------------
-4.Topic
+5.Topic
 
 verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
 https://www.instagram.com/physics_teacher_azerbaijan
@@ -348,7 +435,7 @@ strategic recommendations.
 - **Language:** English
 - **Location:** Azerbaijan, Baku
 --------------------
-5.Topic
+6.Topic
 verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
 https://www.instagram.com/physics_teacher_azerbaijan
 
