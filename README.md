@@ -3,6 +3,8 @@
 6 @@@
 verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
 https://www.instagram.com/physics_teacher_azerbaijan
+
+https://www.slideshare.net/slideshow/comprehensive-introduction-to-operational-amplifiers-principles-and-applications/287466328
 # The Operational Amplifier — Educational Presentation
 
 An 8-slide presentation covering the fundamentals of operational amplifiers (Op-Amps),
