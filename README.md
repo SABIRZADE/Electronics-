@@ -1,5 +1,118 @@
 2.Topic
 
+https://www.slideshare.net/slideshow/comprehensive-technical-report-on-field-effect-transistors-fets-and-their-applications/287120657
+
+verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
+https://www.instagram.com/physics_teacher_azerbaijan
+
+# Field Effect Transistors (FETs) — Arduino-Based Switching Circuit
+
+A 7-page comprehensive technical report covering FET theory, circuit design,
+MOSFET characteristics, Arduino control code, and practical switching
+applications using a dual 9V battery configuration.
+
+**Authors:** Nihat Sabirzade · Murad Ibrahimov · Ilkin Mecidov
+**Verified by:** Telman Askeraliyev — Physics Teacher, Azerbaijan, Baku (Fizika Muellimi)
+**Date:** April 2026
+
+---
+
+## Report Overview
+
+| # | Section | Content |
+|---|---------|---------|
+| 01 | Introduction to FETs | FET vs BJT comparison, FET families — JFET, Enhancement & Depletion MOSFET |
+| 02 | Circuit Overview & Diagram | Arduino UNO + dual 9V battery switching circuit, component roles |
+| 03 | Working Principle | Step-by-step gate control operation, voltage & current summary |
+| 04 | MOSFET Characteristics | N-Channel parameters, operating regions, Arduino compatibility |
+| 05 | Arduino Control Code | Gate control sketch, PWM analog control, safety design notes |
+| 06 | Summary & Conclusion | 7 key takeaways, real-world application table |
+
+---
+
+## Circuit Specifications
+
+| Parameter | Value |
+|-----------|-------|
+| Microcontroller | Arduino UNO |
+| Power Supply | 2× 9V batteries (18V series total) |
+| Arduino I/O HIGH | 5V |
+| Gate Threshold V_th | ~2–4V (typical N-Channel MOSFET) |
+| Gate Resistor R_g | ~1 kΩ |
+| Pull-Down Resistor R_pd | ~10 kΩ |
+| Recommended MOSFET | IRLZ44N (logic-level) / IRF540N |
+
+---
+
+## FET vs BJT Comparison
+
+| Property | FET | BJT |
+|----------|-----|-----|
+| Input Impedance | MΩ → TΩ | kΩ |
+| Control Type | Voltage-controlled | Current-controlled |
+| Noise Figure | Very Low | Moderate |
+| Thermal Stability | High | Lower |
+
+---
+
+## Arduino Sketch
+
+```cpp
+const int FET_GATE_PIN = 9;   // PWM-capable pin
+
+void setup() {
+  pinMode(FET_GATE_PIN, OUTPUT);
+  digitalWrite(FET_GATE_PIN, LOW);  // Start with FET OFF
+}
+
+void loop() {
+  digitalWrite(FET_GATE_PIN, HIGH); // FET ON
+  delay(1000);
+  digitalWrite(FET_GATE_PIN, LOW);  // FET OFF
+  delay(1000);
+}
+```
+
+PWM control via `analogWrite()` enables motor speed control and LED dimming.
+
+---
+
+## Applications Covered
+
+| Application | FET Role | Load Example |
+|-------------|----------|-------------|
+| DC Motor Speed Control | PWM switch | 12V DC motor |
+| LED Strip Dimming | PWM switch | 12V LED strip |
+| Relay Driver | Logic switch | High-voltage relay coil |
+| Battery Charger | Regulating switch | Li-ion charging circuit |
+| Solenoid Valve Control | On/off switch | Pneumatic valve |
+
+---
+
+## Key Safety Notes
+
+- **Gate Resistor** — Always use 100Ω–1kΩ to prevent ringing oscillations
+- **Pull-Down Resistor** — 10kΩ between gate and source ensures FET is OFF when Arduino resets
+- **Flyback Diode** — Required for inductive loads (motors, relays) to suppress voltage spikes
+- **Common Ground** — Arduino GND, FET source, and battery negative must be shared
+
+---
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `FET_report.pdf` | Full 7-page technical report with diagrams |
+| `fet_gate_control.ino` | Arduino sketch for FET gate switching |
+
+---
+
+## Subject
+
+- **Field:** Electronics / Microcontroller Interfacing
+- **Type:** Comprehensive Technical Report
+- **Language:** English
+- **Location:** Azerbaijan, Baku
 ---------------------
 3.Topic
 https://www.slideshare.net/slideshow/comprehensive-technical-report-on-voltage-divider-circuits-and-applications/287239518
